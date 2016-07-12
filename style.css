@@ -1,0 +1,22 @@
+* { margin:0; padding:0;}
+.container {
+  display:flex;
+}
+.left-sidebar {
+  width:200px;
+  padding:20px;
+  background: orange;
+}
+.contents {
+  flex:1;
+  padding:20px;
+  background:yellow;
+}
+.right-sidebar {
+  width:200px;
+  padding:20px;
+  background:limegreen;
+}
+.left-sidebar,.contents,.right-sidebar {
+  box-sizing:border-box;
+}
